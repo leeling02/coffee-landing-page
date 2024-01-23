@@ -78,6 +78,18 @@ button {
     font-size: 1.1rem; 
 }
 
+.slideshow-container {
+    max-width: 600px; 
+    margin: auto; 
+}
+
+.slideshow-img {
+    display: none; 
+    object-fit: cover;
+    width: 600px; 
+    height: 400px; 
+}
+
 .img-1 {
     max-width: 500px;
     margin-left: 16%;
@@ -100,9 +112,13 @@ button {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin: 35px 0 0 0; 
-    
+    margin: 35px 50px 0 0; 
+    width: 100%; 
 
+}
+
+.desc p {
+    font-size: 20px;
 }
 
 .desc h3{
