@@ -4,13 +4,6 @@
 }
 
 
-
-@media only screen and (max-width: 320px) {
-    body {
-        background-color: forestgreen;
-    }
-}
-
 .header {
     display: flex; 
     justify-content: space-between;
@@ -20,10 +13,10 @@
     background-color: white;
 }
 
-.header-img{
+.header-img {
     margin: 0px 0px 0px 20px; 
-    width: 100%;
-    max-width: 100px; 
+    width: 100px; 
+    height: 100px;  
 }
 
 .nav-bar {
@@ -55,7 +48,8 @@
 #form {
     margin-top: 150px;
     width: 500px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -79,7 +73,7 @@ button {
 }
 
 .slideshow-container {
-    max-width: 600px; 
+    width: 100%; 
     margin: auto; 
 }
 
@@ -183,8 +177,9 @@ button {
 
 
 .footer {
-    clear: both; /* Clear the floats */
-    margin-top: 50px; /* Adjust the margin as needed */
+    position: fixed; 
+    bottom: 0px; 
+    margin-top: 50px;
     padding: 20px 0 20px 0;
     background-color: #f0f0f0;
     text-align: center;
