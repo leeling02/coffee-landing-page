@@ -73,6 +73,17 @@ button {
     font-size: 1.1rem; 
 }
 
+h2 {
+    font-size: 24px; /* Default font size */
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 18px; /* Adjusted font size for smaller screens */
+    }
+}
+
+
 .slideshow-container {
     display: flex;
     position: relative; 
@@ -127,6 +138,7 @@ button {
 .nav-link-3 {
     display: flex;
     flex-wrap: wrap; 
+    justify-content: center;
 }
 
 .nav-link-3 img {
